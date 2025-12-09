@@ -1,18 +1,68 @@
-# Python
-venv/
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Node
-node_modules/
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
 dist/
+*.egg-info/
+*.egg
+.wheels/
+*.manifest
+*.spec
 
-# Environment
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
 .env
-.env.local
+.venv/
+venv/
+env/
+ENV/
 
-# OS / IDE
-.DS_Store
-*.log
-.idea/
+# IDEs and Editors
 .vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Pyre / type checking
+.mypy_cache/
+.pyre/
+.pytype/
+
+# ML / Data specific
+*.h5
+*.pt
+*.ckpt
+*.model
+*.log
+
+# Others
+*.log
+*.sqlite3
+downloads/
+__pypackages__/
